@@ -119,7 +119,6 @@ const DrawerContent = (props) => {
               marginLeft: 18,
             }}
             onPress={() => {
-              setUser('');
               props.navigation.navigate('Root');
             }}
           >
